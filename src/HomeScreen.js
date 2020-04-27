@@ -1,5 +1,3 @@
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
 import { Text, StyleSheet, View, Image, Button, TextInput, ScrollView } from 'react-native';
 
@@ -12,8 +10,6 @@ constructor(props) {
         albums: [],
     }
 }
-
-
 
 
     componentDidMount()
@@ -64,10 +60,7 @@ constructor(props) {
     
         
         
-    render() {
-
-        console.log(this.state.albums)
-        
+    render() {        
           return (
             <View style={styles.containerView}>
               <View style={styles.headerView}>
